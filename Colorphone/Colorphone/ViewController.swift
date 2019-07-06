@@ -49,14 +49,7 @@ class ViewController: UIViewController {
         let key = "\(i)|\(j)"
         let cellView = cells[key]
         cellView?.backgroundColor = .white
-        
-        
-//        for subview in view.subviews {
-//            if subview.frame.contains(location){
-//            subview.backgroundColor = .black
-//
-//            }
-//        }
+
     }
     
     fileprivate func randomColor() -> UIColor {

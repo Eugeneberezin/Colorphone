@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		05F5D90422CFD110004713A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F5D90222CFD110004713A2 /* LaunchScreen.storyboard */; };
 		05F5D90F22CFD110004713A2 /* ColorphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5D90E22CFD110004713A2 /* ColorphoneTests.swift */; };
 		05F5D91A22CFD110004713A2 /* ColorphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5D91922CFD110004713A2 /* ColorphoneUITests.swift */; };
+		05F5D92822CFDDDA004713A2 /* IMG_3045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05F5D92722CFDDDA004713A2 /* IMG_3045.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05F5D91522CFD110004713A2 /* ColorphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F5D91922CFD110004713A2 /* ColorphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorphoneUITests.swift; sourceTree = "<group>"; };
 		05F5D91B22CFD110004713A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F5D92722CFDDDA004713A2 /* IMG_3045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3045.jpg; path = ../../../../../Downloads/IMG_3045.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				05F5D90D22CFD110004713A2 /* ColorphoneTests */,
 				05F5D91822CFD110004713A2 /* ColorphoneUITests */,
 				05F5D8F722CFD10F004713A2 /* Products */,
+				05F5D92922CFF71B004713A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +103,7 @@
 				05F5D8F922CFD10F004713A2 /* AppDelegate.swift */,
 				05F5D8FB22CFD10F004713A2 /* ViewController.swift */,
 				05F5D8FD22CFD10F004713A2 /* Main.storyboard */,
+				05F5D92722CFDDDA004713A2 /* IMG_3045.jpg */,
 				05F5D90022CFD110004713A2 /* Assets.xcassets */,
 				05F5D90222CFD110004713A2 /* LaunchScreen.storyboard */,
 				05F5D90522CFD110004713A2 /* Info.plist */,
@@ -123,6 +127,13 @@
 				05F5D91B22CFD110004713A2 /* Info.plist */,
 			);
 			path = ColorphoneUITests;
+			sourceTree = "<group>";
+		};
+		05F5D92922CFF71B004713A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,11 @@
 				TargetAttributes = {
 					05F5D8F522CFD10F004713A2 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					05F5D90922CFD110004713A2 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -205,7 +221,7 @@
 				};
 			};
 			buildConfigurationList = 05F5D8F122CFD10F004713A2 /* Build configuration list for PBXProject "Colorphone" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,6 +248,7 @@
 				05F5D90422CFD110004713A2 /* LaunchScreen.storyboard in Resources */,
 				05F5D90122CFD110004713A2 /* Assets.xcassets in Resources */,
 				05F5D8FF22CFD10F004713A2 /* Main.storyboard in Resources */,
+				05F5D92822CFDDDA004713A2 /* IMG_3045.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
